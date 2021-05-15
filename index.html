@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Boxes Game</title>
+</head>
+<body>
+    <div class="boxes">
+        <div class="column" id="1" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+            <img id="b1" src="img/black-ball.png" draggable="true" ondragstart="dragStart(event)">
+        </div>
+        <div class="column" id="2" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+            <img id="b2" src="img/black-ball.png" draggable="true" ondragstart="dragStart(event)">
+        </div>
+        <div class="column" id="3" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+            <img id="b3" src="img/black-ball.png" draggable="true" ondragstart="dragStart(event)">
+        </div>
+        <div class="column" id="4" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+
+        </div>
+        <div class="column" id="5" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+            <img id="w1" src="img/white-ball.png" draggable="true" ondragstart="dragStart(event)">
+        </div>
+        <div class="column" id="6" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+            <img id="w2" src="img/white-ball.png" draggable="true" ondragstart="dragStart(event)">
+        </div>
+        <div class="column" id="7" ondrop="dragDrop(event)" ondragover="allowDrop(event)">
+            <img id="w3" src="img/white-ball.png" draggable="true" ondragstart="dragStart(event)">
+        </div>
+    </div>
+    <br>
+    <div class="boxes">
+        <button onclick="location.reload()">Try again</button>
+        <button onclick="repo()">Repository</button>
+    </div>
+    <div>
+        <p class="step" id="steps"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

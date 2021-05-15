@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.boxes:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+    }
+img{
+    width: 160px;
+    height: 160px;
+}
+.column {
+    float: left;
+    border-style: solid;
+    min-height:170px ; 
+    min-width: 170px ;
+}
+.step{
+    font-size: 40px;
+}
