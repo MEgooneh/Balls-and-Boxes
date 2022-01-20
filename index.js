@@ -30,12 +30,12 @@ function dragDrop(ev) {
         steps.textContent = "Turn : " + parseInt(step) ; 
     }
     if(step == 15 && checkwin()){
-        if(window.confirm("Congratulation! \n You won the game ! it can be proven that the minimum possible step is 15 & you did it :)")){
+        if(window.confirm("Congratulation! \n You won the game ! it can be proven that the minimum possible steps is 15 & you did it :)")){
             location.reload() ; 
         }
     }
     else if(checkwin()){
-        if(window.confirm("Good job . you solved the problem but it was not the optimal solution ! try again.")){
+        if(window.confirm("Good job . you solved the problem but it was not the optimal ! try again.")){
             location.reload() ; 
         } 
         
